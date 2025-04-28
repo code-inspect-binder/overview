@@ -7,16 +7,14 @@ This repository documents the execution results of a reproducibility pipeline ap
 
 ## 1. Initial Verification: File Not Found Analysis
 
-An initial verification step revealed that, out of the 296 OSF projects, **32 projects** had missing files.  
-This outcome suggests that a portion of the dataset had become outdated, likely due to file deletions, file renaming, or the projects no longer being available on OSF.
-
-> See [File Not Found Projects](results/file_not_found_projects.txt) for the list.
+An initial verification step revealed that, out of the 296 OSF projects, **32 projects** had missing files, see [File Not Found Projects](results/file_not_found_projects.txt) for the list. 
+This outcome suggests that a portion of the dataset had become outdated, likely due to file deletions, file renaming, or the projects no longer being available on OSF. 
 
 ---
 
 ## 2. Container Build Status
 
-From the **remaining 264 projects**, containerization failed for **15 projects**.  
+From the **remaining 264 projects**, containerization failed for **15 projects**, see [Build Failed Projects](results/build_failed_projects.txt).
 The failures were primarily due to:
 
 - **Malformed or incomplete `DESCRIPTION` files:** Automatically generated DESCRIPTION files often lacked required fields or had formatting issues.
@@ -29,7 +27,7 @@ The failures were primarily due to:
 
 ## 3. GitHub Push Status
 
-From the remaining **249 projects**, **26 projects** could not be pushed to GitHub because they contained files larger than 100 MB, violating GitHub’s size restrictions.
+From the remaining **249 projects**, **26 projects** could not be pushed to GitHub because they contained files larger than 100 MB, violating GitHub’s size restrictions, see [Git Push Failed Projects](results/git_push_failed_projects.txt)
 
 ---
 
@@ -39,16 +37,13 @@ The final set of **226 projects** were:
 
 - Successfully containerized,
 - Docker images were built and pushed to Docker Hub.
-
-> Docker images are available on [Docker Hub](https://hub.docker.com/u/meet261).
+Docker images are available on [Docker Hub](https://hub.docker.com/u/meet261).
 
 ---
 
 ## 5. Execution Results Overview
 
-The execution results of these 226 projects are summarized in:
-
-> [execution_results.csv](results/execution_results.csv)
+The execution results of these 226 projects are summarized in [execution_results_with_binder.csv](results/execution_results_with_binder.csv)
 
 This CSV file contains the following columns:
 
