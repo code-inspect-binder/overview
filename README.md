@@ -1,40 +1,44 @@
-# Overview
 # OSF Project Execution Results Summary
 
-This repository documents the execution results of a reproducibility pipeline applied to **296 OSF-hosted projects** containing R code, based on the [StatCodeSearch](https://huggingface.co/datasets/drndr/statcodesearch) dataset.
-The reproducibility study was conducted using the **StatCodeSearch** dataset, which is part of the GenCodeSearchNet benchmark suite. This dataset contains code-comment pairs extracted from R scripts hosted on the Open Science Framework (OSF), with a particular focus on projects in the domains of social sciences and psychology involving statistical analysis.
+The reproducibility study was conducted using the [StatCodeSearch](https://huggingface.co/datasets/drndr/statcodesearch) dataset, part of the GenCodeSearchNet benchmark suite. This dataset consists of code-comment pairs extracted from R scripts hosted on the Open Science Framework (OSF), with a particular focus on research in the social sciences and psychology involving statistical analysis.
+
+From this dataset, we extracted the OSF project identifiers associated with the R scripts to retrieve and process complete research materials from OSF. In total, **296 unique OSF projects** were identified and analyzed through our reproducibility pipeline.
+
+The complete list of project identifiers is available here:  
+[**project_ids.csv**](https://github.com/code-inspect-binder/overview/blob/main/metadata/project_ids.csv)
+
+This CSV contains:
+
+| Column         | Description                              |
+|----------------|------------------------------------------|
+| **Project ID** | OSF project identifier for each study    |
 
 ---
 
-## 1. Initial Verification
+## 1. Project Processing Failures
 
+This includes a summary of OSF-hosted R projects that failed at various stages of a reproducibility pipeline. The results are consolidated in [Project Processing Failures](https://github.com/code-inspect-binder/overview/blob/main/results/project_processing_failures.csv), which contains:
 
-An initial verification revealed that, among the 296 OSF projects referenced in the dataset, **32 projects** contained missing or inaccessible files (see [File Not Found Projects](results/file_not_found_projects.txt)).  
-This finding indicates that a portion of the dataset had become outdated, likely due to file deletions, renaming of files, or modifications made to OSF repositories after the initial data collection.  
-The absence of formal version control within many OSF repositories further complicates the recovery or exact reproduction of the original computational environments associated with these projects.
+| Column            | Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| **Project ID**     | OSF project identifier                                                     |
+| **Failure Stage**  | Stage where the failure occurred: `File Not Found`, `Container Build Fail`, or `Git Push Fail` |
+| **Reason**         | Explanation of the failure                                                 |
 
----
+### Failure Types
 
-## 2. Container Build Status
+- **File Not Found – 32 projects**  
+  Files were missing or inaccessible on OSF—often due to deletion, renaming, or lack of version control.
 
-From the **remaining 264 projects**, containerization failed for **15 projects**, see [Build Failed Projects](results/build_failed_projects.txt).
-The failures were primarily due to:
+- **Container Build Fail - 15 projects**  
+  The container build process failed due to issues like malformed `DESCRIPTION` files, unresolved dependencies, or invalid package references.
 
-- **Malformed or incomplete `DESCRIPTION` files:** Automatically generated DESCRIPTION files often lacked required fields or had formatting issues.
-- **Incorrectly extracted dependencies:** Variables, file paths, or invalid names such as `unknown`, `NULL`, or numbers (`0`, `1`) were mistakenly added as dependencies.
-- **Invalid scoped package references:** References like `knitr::opts_chunk` were incorrectly treated as standalone packages.
-- **Unavailable or incompatible packages:** Some projects required non-CRAN packages (e.g., `crsh/papaja`, `DF_network`) or packages needing system libraries missing in the container.
-- **Failed package installation:** Broken dependencies or compilation failures caused `devtools::install_local(getwd())` to fail during the container build.
-
----
-
-## 3. GitHub Push Status
-
-From the remaining **249 projects**, **26 projects** could not be pushed to GitHub because they contained files larger than 100 MB, violating GitHub’s size restrictions, see [Git Push Failed Projects](results/git_push_failed_projects.txt)
+- **Git Push Fail – 26 projects**  
+  Projects exceeded GitHub's 100MB file limit, preventing the repository from being pushed.
 
 ---
 
-## 4. Successfully Processed Projects
+## 2. Project Processing Successes
 
 The final set of **226 projects** were:
 
@@ -44,9 +48,9 @@ Docker images are available on [Docker Hub](https://hub.docker.com/u/meet261).
 
 ---
 
-## 5. Execution Results Overview
+## 3. Execution Results Overview
 
-The execution results of these 226 projects are summarized in [execution_results_with_binder.csv](results/execution_results_with_binder.csv)
+The execution results of these 226 projects are summarized in [execution_results_with_binder](https://github.com/code-inspect-binder/overview/blob/main/results/execution_results_with_binder.csv)
 
 This CSV file contains the following columns:
 
@@ -63,7 +67,7 @@ This CSV file contains the following columns:
 
 ---
 
-## 6. Error Classification
+## 4. Error Classification
 
 To help interpret failures, a two-level classification approach was used:
 
@@ -75,7 +79,7 @@ To help interpret failures, a two-level classification approach was used:
 
 ---
 
-## 7. Failure Types
+## 5. Failure Types
 
 ### Code Issues:
 
@@ -129,15 +133,5 @@ Common examples include:
 Each failure case is classified into one of these categories based on the error message. This classification helps distinguish reproducibility problems caused by the environment from actual bugs in the code.
 
 ---
-  
-## 8. Notes
-
-- Missing projects and file mismatches could be due to a lack of formal version control on OSF.
-- Failed builds often highlight real-world challenges in open science reproducibility.
-- All Docker images are standardized for long-term use and reproducibility.
-
----
-
-## 9. Funding
 
 This work was funded by the German Research Foundation (DFG) under project No. 504226141.
