@@ -4,8 +4,7 @@ The reproducibility study was conducted using the [StatCodeSearch](https://huggi
 
 From this dataset, we extracted the OSF project identifiers associated with the R scripts to retrieve and process complete research materials from OSF. In total, **296 unique OSF projects** were identified and analyzed through our reproducibility pipeline.
 
-The complete list of project identifiers is available here:  
-[**project_ids.csv**](https://github.com/code-inspect-binder/overview/blob/main/metadata/project_ids.csv)
+The complete list of project identifiers is available in [**project_ids**](https://github.com/code-inspect-binder/overview/blob/main/metadata/project_ids.csv).
 
 This CSV contains:
 
@@ -13,11 +12,22 @@ This CSV contains:
 |----------------|------------------------------------------|
 | **Project ID** | OSF project identifier for each study    |
 
+## Reproducibility Pipeline
+The reproducibility pipeline used in this study is implemented in the companion repository [**osf-to-binder**](https://github.com/Code-Inspect/osf-to-binder).
+
+It automates the end-to-end process of:
+
+- Downloading project materials from OSF using project identifiers
+- Extracting R code dependencies
+- Building reproducible Binder containers
+- Executing scripts within these environments
+- Collecting and classifying the resulting logs
+
 ---
 
 ## 1. Project Processing Failures
 
-This includes a summary of OSF-hosted R projects that failed at various stages of a reproducibility pipeline. The results are consolidated in [Project Processing Failures](https://github.com/code-inspect-binder/overview/blob/main/results/project_processing_failures.csv), which contains:
+This includes a summary of OSF-hosted R projects that failed at various stages of a reproducibility pipeline. The results are consolidated in [project_processing_failures](https://github.com/code-inspect-binder/overview/blob/main/results/project_processing_failures.csv), which contains:
 
 | Column            | Description                                                                 |
 |-------------------|-----------------------------------------------------------------------------|
