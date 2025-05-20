@@ -43,7 +43,7 @@ This includes a summary of OSF-hosted R projects that failed at various stages o
 - **Container Build Fail - 15 projects**  
   The container build process failed due to issues like malformed `DESCRIPTION` files, unresolved dependencies, or invalid package references.
 
-- **Git Push Fail – 26 projects**  
+- **Git Push Fail – 23 projects**  
   Projects exceeded GitHub's 100MB file limit, preventing the repository from being pushed.
 
 ---
