@@ -295,6 +295,7 @@ rs6un,Psi.PS.AR.Matrix.R,Successful,,,https://mybinder.org/v2/gh/code-inspect-bi
 rs6un,Data.PC.VAR.Fixed.R,Successful,,,https://mybinder.org/v2/gh/code-inspect-binder/osf_rs6un/HEAD?urlpath=rstudio
 rs6un,Data.Cluster.VAR.R,Successful,,,https://mybinder.org/v2/gh/code-inspect-binder/osf_rs6un/HEAD?urlpath=rstudio
 rs6un,Data.Cluster.VAR.Fixed.R,Successful,,,https://mybinder.org/v2/gh/code-inspect-binder/osf_rs6un/HEAD?urlpath=rstudio
+rs6un,Code_Simulation_Part_III_MVAR_RE.R,Failed,Code Issue,Missing Object or Function,https://mybinder.org/v2/gh/code-inspect-binder/osf_rs6un/HEAD?urlpath=rstudio
 rtmyx,05_PerceptionAnalysis_AllClassSolutions_V230401.R,Failed,Container Issue,Shared Library Load Error,https://mybinder.org/v2/gh/code-inspect-binder/osf_rtmyx/HEAD?urlpath=rstudio
 s6zeg,Criticism-Attachment-RCode_v2.R,Failed,Code Issue,Invalid File or Directory Path,https://mybinder.org/v2/gh/code-inspect-binder/osf_s6zeg/HEAD?urlpath=rstudio
 s82bw,01_TreeBUGS_with_csv_files.R,Failed,Container Issue,Shared Library Load Error,https://mybinder.org/v2/gh/code-inspect-binder/osf_s82bw/HEAD?urlpath=rstudio
@@ -405,3 +406,5 @@ zv3uc,analysis.R,Failed,Container Issue,System-Level Dependency Missing,https://
 n3zfp,Aesthetic-Fidelity-Effect-Statistical Analyses.r,Failed,Container Issue,Missing Package,https://mybinder.org/v2/gh/code-inspect-binder/osf_n3zfp/HEAD?urlpath=rstudio
 vtb9e,Sim.Dyad.Model.16.R,Successful,-,-,https://mybinder.org/v2/gh/code-inspect-binder/osf_vtb9e/HEAD?urlpath=rstudio
 vtb9e,Sim.Dyad.Model.3.R,Successful,-,-,https://mybinder.org/v2/gh/code-inspect-binder/osf_vtb9e/HEAD?urlpath=rstudio
+przvy,study1-rscript.R,Successful,-,-,https://mybinder.org/v2/gh/code-inspect-binder/osf_przvy/HEAD?urlpath=rstudio
+jy5wd,Code.R,Failed,Code Issue,Missing Object or Function,https://mybinder.org/v2/gh/code-inspect-binder/osf_jy5wd/HEAD?urlpath=rstudio
