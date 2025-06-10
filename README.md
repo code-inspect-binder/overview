@@ -52,9 +52,20 @@ This includes a summary of OSF-hosted R projects that failed at various stages o
 
 The final set of **226 projects** were:
 
-- Successfully containerized,
-- Docker images were built and pushed to Docker Hub.
+- Successfully containerized  
+- Docker images were built and pushed to Docker Hub
+
 Docker images are available on [Docker Hub](https://hub.docker.com/u/meet261).
+
+In addition to the standard repositories, we also created **flowR-enabled variant** for each project. These include an `.Rprofile` and `postBuild` script that ensure each container launches directly into RStudio with the [flowR](https://github.com/flowr-analysis/rstudio-addin-flowr) package preinstalled and available as an RStudio addin for interactive dependency exploration.
+
+Repositories follow this naming pattern:
+- Standard: `code-inspect-binder/osf_projectid`
+- flowR-enabled: `code-inspect-binder/osf_projectid-f`
+
+**Example:**  
+- Without flowR: [`code-inspect-binder/osf_3kem6`](https://github.com/code-inspect-binder/osf_3kem6)
+- With flowR: [`code-inspect-binder/osf_3kem6-f`](https://github.com/code-inspect-binder/osf_3kem6-f)
 
 ---
 
@@ -143,5 +154,13 @@ Common examples include:
 Each failure case is classified into one of these categories based on the error message. This classification helps distinguish reproducibility problems caused by the environment from actual bugs in the code.
 
 ---
+
+## Citation
+
+If you use this repository or refer to this work, please cite:
+
+Saju, L., Holtdirk, T., Mangroliya, M. P., & Bleier, A. (2025).  
+*Computational Reproducibility of R Code Supplements on OSF*.  
+arXiv preprint arXiv:2505.21590. https://arxiv.org/abs/2505.21590
 
 This work was funded by the German Research Foundation (DFG) under project No. 504226141.
