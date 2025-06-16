@@ -1,16 +1,16 @@
 # OSF Project Execution Results Summary
-
-The reproducibility study was conducted using the [StatCodeSearch](https://huggingface.co/datasets/drndr/statcodesearch) dataset, part of the GenCodeSearchNet benchmark suite. This dataset consists of code-comment pairs extracted from R scripts hosted on the Open Science Framework (OSF), with a particular focus on research in the social sciences and psychology involving statistical analysis.
-
-From this dataset, we extracted the OSF project identifiers associated with the R scripts to retrieve and process complete research materials from OSF. In total, **296 unique OSF projects** were identified and analyzed through our reproducibility pipeline.
+As part of a reproducibility study, we analyzed a collection of R scripts sourced from the [StatCodeSearch](https://huggingface.co/datasets/drndr/statcodesearch) dataset within the GenCodeSearchNet benchmark. These scripts, focused on statistical analysis in social science and psychology research, were linked to corresponding Open Science Framework (OSF) projects. In total, 296 unique OSF projects were identified and examined through our reproducibility pipeline to assess computational reproducibility—that is, whether the original results can be regenerated using the shared code and data.
 
 The complete list of project identifiers is available in [**project_ids**](https://github.com/code-inspect-binder/overview/blob/main/metadata/project_ids.csv).
-
 This CSV contains:
 
 | Column         | Description                              |
 |----------------|------------------------------------------|
 | **Project ID** | OSF project identifier for each study    |
+
+We found that only 264 projects were retrievable, and nearly 99% lacked proper dependency information needed to run the code. To address this, we built an automated pipeline that reconstructed the computing environment using Docker. When we executed the scripts, only 25.87% completed successfully without errors. At the project level, 40 (16%) projects were fully reproducible, 34 (13.65%) showed partial reproducibility, and the remaining 175 (70%) projects had no scripts that ran successfully—underscoring persistent obstacles in reproducing research code at scale. We also examined why others failed and found issues such as missing packages, broken file paths, and system-level problems, highlighting the challenges of reproducible science and how automation can help.
+
+You can find the list of fully reproducible OSF project IDs [here](https://github.com/code-inspect-binder/overview/blob/main/results/fully_successful_projects.csv).
 
 ## Reproducibility Pipeline
 The reproducibility pipeline used in this study is implemented in the companion repository [**osf-to-binder**](https://github.com/Code-Inspect/osf-to-binder).
