@@ -18,6 +18,8 @@ The complete list of project identifiers is available in [**project_ids.csv**](h
 
 We found that only **264 projects** were retrievable from OSF. Among them, nearly **99% lacked proper dependency information**, such as missing `DESCRIPTION` files, environment specifications (e.g., `renv.lock`, `sessionInfo()` output), or other metadata needed to reproduce the software environment.
 
+To maintain execution integrity, each R script was run from within its corresponding directory, ensuring that relative paths to local datasets and files were preserved. This context-aware setup was achieved by programmatically adjusting the working directory at runtime, allowing scripts to function as originally intended without manual intervention.
+
 When we attempted to run the scripts, only **25.87%** completed successfully without errors. The remaining scripts encountered issues like missing packages, broken file paths, or coding errors that caused execution to stop.
 
 At the project level:
@@ -86,6 +88,8 @@ For the 226 published projects:
 - FlowR-enabled variants: `code-inspect-binder/osf_projectid-f`
 
 Each flowR-enabled container launches directly into RStudio with the [flowR](https://github.com/flowr-analysis/rstudio-addin-flowr) package preinstalled as an RStudio addin for interactive dependency exploration.
+
+To ensure that scripts execute in their intended context, each container includes a .Rprofile that automatically sets the working directory to the script's folder when RStudio starts. This programmatic setup ensures consistent behavior across environments and resolves local file dependencies during interactive exploration or execution.
 
 **Example:**  
 - Without flowR: [`code-inspect-binder/osf_6jmke`](https://github.com/code-inspect-binder/osf_6jmke)  
