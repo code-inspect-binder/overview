@@ -1,0 +1,410 @@
+project_id,repo_variant,r_script_path
+25a6x,osf_25a6x,25a6x_src/R Scripts/BeliefsScale_IRT_Rscript.R
+2j47e,osf_2j47e,2j47e_src/Cluster analysis non-refined factor scores.R
+2j47e,osf_2j47e,2j47e_src/Cluster analysis refined factor scores.R
+2j47e,osf_2j47e,2j47e_src/Demographics.R
+2j47e,osf_2j47e,2j47e_src/Factor analysis.R
+2j47e,osf_2j47e,2j47e_src/Figures.R
+2j47e,osf_2j47e,2j47e_src/Reliability.R
+2phst,osf_2phst,2phst_src/mse_values_for_density_smoother.R
+2phst,osf_2phst,2phst_src/mse_values_latent_space_diffusion_slurm.R
+2qjn5,osf_2qjn5,2qjn5_src/dump_csv.R
+2qjn5,osf_2qjn5,2qjn5_src/redraw_figures.R
+2sguf,osf_2sguf,2sguf_src/US attitude code.R
+2sz48,osf_2sz48,2sz48_src/Model_Correctness.R
+2sz48,osf_2sz48,2sz48_src/Model_Preference.R
+2uf8j,osf_2uf8j,2uf8j_src/R Script & Data/Negativity R.R
+2yq8a,osf_2yq8a,2yq8a_src/figure2.R
+37rfb,osf_37rfb,37rfb_src/Data & R scripts/Code/prediction_analyses.R
+37rfb,osf_37rfb,37rfb_src/Data & R scripts/Code/prediction_plots.R
+3bn9u,osf_3bn9u,3bn9u_src/4_1_deidentification.R
+3bn9u,osf_3bn9u,3bn9u_src/4_4_identification.R
+3bpn6,osf_3bpn6,3bpn6_src/Navigation/af_homing_dataproc.R
+3bpn6,osf_3bpn6,3bpn6_src/Androgens/af_testosterone_analysis.R
+3bpn6,osf_3bpn6,3bpn6_src/Navigation/all_navigation_models.R
+3bpn6,osf_3bpn6,3bpn6_src/Space use/all_spaceuse_dataproc.R
+3bpn6,osf_3bpn6,3bpn6_src/Navigation/dt_homing_dataproc.R
+3bpn6,osf_3bpn6,3bpn6_src/Navigation/os_homing_dataproc.R
+3bpn6,osf_3bpn6,3bpn6_src/Androgens/os_testosterone_analysis.R
+3bpn6,osf_3bpn6,3bpn6_src/Space use/osylv_sitecomparison.R
+3fnjq,osf_3fnjq,3fnjq_src/campaign_messages.R
+3fnjq,osf_3fnjq,3fnjq_src/facebook_pages.R
+3fnjq,osf_3fnjq,3fnjq_src/facebook_users.R
+3gfqn,osf_3gfqn,3gfqn_src/Outer Circle only/genitives/VADIS_genitives_outer_circle.R
+3gfqn,osf_3gfqn,3gfqn_src/Inner Circle only/particles/VADIS_particles_InnerC-only.R
+3hgpe,osf_3hgpe,3hgpe_src/02 Syntax/01_data-preparation-variable-setup.R
+3hgpe,osf_3hgpe,3hgpe_src/02 Syntax/02_analysis.R
+3kem6,osf_3kem6,3kem6_src/Rcode_Figure2.R
+3uyjt,osf_3uyjt,3uyjt_src/preprocessing_hrs.R
+3uyjt,osf_3uyjt,3uyjt_src/semtree/R/tree.R
+3w8eg,osf_3w8eg,3w8eg_src/All_Figures.R
+3wy58,osf_3wy58,3wy58_src/bivariate_model_summer_revision.R
+3wy58,osf_3wy58,3wy58_src/bivariate_model_winter_revision.R
+42nyv,osf_42nyv,42nyv_src/ANALYSES/Eye tracking_pre-processing_R1.R
+49sq5,osf_49sq5,49sq5_src/example_analysis.R
+4a9b6,osf_4a9b6,4a9b6_src/Supplementary Material/Analyses Exploratory Gaze Following Task/EXPLORATORY_Gaze Following_ANALYSES.R
+4a9b6,osf_4a9b6,4a9b6_src/Main Analyses/Pref Looking & Manual forced choice Task/PrefLook_functions.r
+4anzm,osf_4anzm,4anzm_src/Code and Datasets/norms_code.R
+4fvwe,osf_4fvwe,4fvwe_src/funcs/load_my_functions.R
+4fvwe,osf_4fvwe,4fvwe_src/funcs/print_result.R
+4fvwe,osf_4fvwe,4fvwe_src/funcs/return_BF_ttests.R
+4kmdv,osf_4kmdv,4kmdv_src/analysis code.R
+4sjxz,osf_4sjxz,4sjxz_src/ScenePrimingCFS_Analysis.R
+53w96,osf_53w96,53w96_src/INLA_GHG_GMD.R
+5ezfk,osf_5ezfk,5ezfk_src/Workshop Files/functions/ETfun.R
+5ezfk,osf_5ezfk,5ezfk_src/Workshop Files/functions/SWATCUPfunctions.R
+5ezfk,osf_5ezfk,5ezfk_src/Workshop Files/CourseAugust2017/RscriptsduringCourse/SantaLuciaStationsToPCPFile.R
+5hpjn,osf_5hpjn,5hpjn_src/NetworkToolbox.R
+5nh94,osf_5nh94,5nh94_src/01b_fit_single_ergm.R
+5nh94,osf_5nh94,5nh94_src/F8_plot_efficiency_goodness_of_fit.R
+5qx7e,osf_5qx7e,5qx7e_src/Descriptives_Tables_1_2_S1_S2.R
+5s34w,osf_5s34w,5s34w_src/simpd_helper.R
+5xdbu,osf_5xdbu,5xdbu_src/study2-rscript.R
+5y27d,osf_5y27d,5y27d_src/Code/load_all_tables.R
+5y27d,osf_5y27d,5y27d_src/Code/tabulate_cases.R
+5yvnb,osf_5yvnb,5yvnb_src/Experiment 5/Analysis/analyse_final_Exp5_OSF.R
+5yvnb,osf_5yvnb,5yvnb_src/Experiment 6/Analysis/analyse_final_Exp6_OSF.R
+62je8,osf_62je8,62je8_src/NRSA-CA-QC/R/3-Figures/DMS-NRSA-CA-QC-Figures.R
+6579b,osf_6579b,6579b_src/03_R_Code/02_Main_Analyses.R
+6579b,osf_6579b,6579b_src/03_R_Code/03_Supplement.R
+67ncp,osf_67ncp,67ncp_src/submission/duque_etal_2019_rcode.R
+67ncp,osf_67ncp,67ncp_src/duque_etal_2020_rcode.R
+6g4js,osf_6g4js,6g4js_src/Analyses_Section_4.R
+6g4js,osf_6g4js,6g4js_src/Graphics_Section_5.R
+6hx2n,osf_6hx2n,6hx2n_src/DM_a_k.R
+6jmke,osf_6jmke,6jmke_src/src/custom_functions.R
+6pq9e,osf_6pq9e,6pq9e_src/Model.R
+6q73b,osf_6q73b,6q73b_src/SubgroupStatsSimulationV5.R
+6qej7,osf_6qej7,6qej7_src/Analysis Code/ECoach Functions.R
+6ukwg,osf_6ukwg,6ukwg_src/codes_reanalysis.R
+6ukwg,osf_6ukwg,6ukwg_src/stuart.R
+6ukwg,osf_6ukwg,6ukwg_src/utility_functions.R
+6ya5d,osf_6ya5d,6ya5d_src/S1_Code_Data/Power_Analysis_OSF_22.R
+6z79s,osf_6z79s,6z79s_src/bi.conv.networks.R
+73y8p,osf_73y8p,73y8p_src/RAQ-R_Analyses.R
+73y8p,osf_73y8p,73y8p_src/RAQ-R_reliability after exclusion.R
+74qnu,osf_74qnu,74qnu_src/Script and Data/Script_Predicting_Social_Skill_Expression.R
+7h94n,osf_7h94n,7h94n_src/MalawiEarlyHumanChronology/Malawi/Malawi_interpolation.R
+7h94n,osf_7h94n,7h94n_src/MalawiEarlyHumanChronology/Malawi/Malawi_ordination.R
+7mey8,osf_7mey8,7mey8_src/modelSimulationAndHMCCode/stan_AWB_adriana_pools5i_vary_mic.r
+7mey8,osf_7mey8,7mey8_src/modelSimulationAndHMCCode/stan_CON_adriana_pools5i.r
+7v4ep,osf_7v4ep,7v4ep_src/Part 1_Calculating social network metrics from publication records/Collaboration boosts career progression_part 1.R
+7v4ep,osf_7v4ep,"7v4ep_src/Part 2_Adjusting collaboration behaviour metrics, summaries, statistics, plotting/Collaboration boosts career progression_part 2.R"
+7vbtr,osf_7vbtr,7vbtr_src/Gyurkovics_Stafford_Levita_analyses.R
+7xsfj,osf_7xsfj,7xsfj_src/Fig05To08.R
+7z3mk,osf_7z3mk,7z3mk_src/t1-stan/t1-stan-5.R
+8abj4,osf_8abj4,8abj4_src/Experiment 1/Exp1.R
+8abj4,osf_8abj4,8abj4_src/Experiment 2/Exp2.R
+8akru,osf_8akru,8akru_src/workshop_example.R
+8edp7,osf_8edp7,8edp7_src/Data and Analyses/Social Factors COVID-19_Konrad.R
+8fsbd,osf_8fsbd,8fsbd_src/Processing and Analysis/Command Files/IMDB_analysis.r
+8fw3b,osf_8fw3b,8fw3b_src/Code/QPsyAnalyse.R
+8fzns,osf_8fzns,8fzns_src/R/0_Data-Prep.R
+8fzns,osf_8fzns,8fzns_src/R/1_Get_Item-Params_TR.R
+8fzns,osf_8fzns,8fzns_src/R/2H_Recode_helper.R
+8fzns,osf_8fzns,8fzns_src/R/2_Conditioning_Recode.R
+8fzns,osf_8fzns,8fzns_src/R/3H_IRT_helper.R
+8fzns,osf_8fzns,8fzns_src/R/3_IRT.R
+8fzns,osf_8fzns,8fzns_src/R/4H_PV_helper.R
+92e6c,osf_92e6c,92e6c_src/scripts/analyze_scan_model_hadza.R
+92e6c,osf_92e6c,92e6c_src/scripts/fill_summary_table.R
+92e6c,osf_92e6c,92e6c_src/scripts/hadza_combine_data.R
+92e6c,osf_92e6c,92e6c_src/scripts/hadza_returns_model.R
+938ye,osf_938ye,938ye_src/Data & R scripts/Code/Apriori_group_differences.R
+938ye,osf_938ye,938ye_src/Data & R scripts/Code/Descriptive_statistics.R
+938ye,osf_938ye,938ye_src/Data & R scripts/Code/Statistical_models_no_T3_criticals.R
+9e3cu,osf_9e3cu,9e3cu_src/R code/answers/BCA_activity_answers.R
+9e3cu,osf_9e3cu,9e3cu_src/R code/answers/BCA_dilution_answers.R
+9e3cu,osf_9e3cu,9e3cu_src/R code/example code/sat_curve.R
+9e3cu,osf_9e3cu,9e3cu_src/R code/answers/titration_answers.R
+9e3cu,osf_9e3cu,9e3cu_src/R code/example code/visualization_code.R
+9gjyc,osf_9gjyc,9gjyc_src/Data + statistical code/Changed advisor/BRMS + Figure4.R
+9gjyc,osf_9gjyc,9gjyc_src/Numerical simulations/Evidence levels/Simulations Evidence level.R
+9jxzs,osf_9jxzs,9jxzs_src/src/03_analysis_color.R
+9jxzs,osf_9jxzs,9jxzs_src/src/07_analysis_rheology.R
+9mc84,osf_9mc84,9mc84_src/preprocessing.R
+9qbwv,osf_9qbwv,9qbwv_src/helper.R
+9tnmv,osf_9tnmv,9tnmv_src/Experiment1a_Midterm.Elections/Data and Analyses/Exp1a_Election_post.R
+9tnmv,osf_9tnmv,9tnmv_src/Experiment2_Online.Tournament/Data and Analyses/Exp2_OnlineExp_POST.R
+9tnmv,osf_9tnmv,9tnmv_src/Experiment4_Stereotype.Buddhist/Data ana Analyses/Exp4_buddhist_post.R
+a3yd4,osf_a3yd4,a3yd4_src/empirical-analysis-IRT/Functions_IRT.R
+a9bv6,osf_a9bv6,a9bv6_src/benchmark tests/sanet_2.R
+abts4,osf_abts4,abts4_src/DECEPTION-ProbitSDT-v1.R
+aczx5,osf_aczx5,aczx5_src/220423_Fig04_Use_JargExpl.R
+aczx5,osf_aczx5,aczx5_src/220423_Fig06_Under_JargExpl.R
+aczx5,osf_aczx5,aczx5_src/220423_FinalModelEstimation.R
+b4gc7,osf_b4gc7,b4gc7_src/Course Materials/workshop_example.R
+bfq39,osf_bfq39,bfq39_src/Code_LMMs_BestPractice_Example_withOutput.R
+bfq39,osf_bfq39,bfq39_src/Code_LMMs_Code_BestPractice_Example.R
+bhrwx,osf_bhrwx,bhrwx_src/analysis_scripts/for the published article/evaluation_data_analysis.R
+bhrwx,osf_bhrwx,bhrwx_src/analysis_scripts/for the preprint version/script_for_the_analysis_of_game_data.R
+bkuwa,osf_bkuwa,bkuwa_src/Supplemental Analyses and Data/main_analysis_code.R
+c8vfj,osf_c8vfj,c8vfj_src/1. Experiment 1/2. Analysis/Analysis_Imitation_and_Token.R
+c93vs,osf_c93vs,c93vs_src/Experiment 01/exp01_prep.R
+c93vs,osf_c93vs,c93vs_src/Experiment 02/exp02_prep.R
+cd5r8,osf_cd5r8,cd5r8_src/R_Code_Buffinton_MorganShort.R
+cd5r8,osf_cd5r8,cd5r8_src/R_Code_Fang_Wu.R
+cd5r8,osf_cd5r8,cd5r8_src/R_Code_Hui_et_al.R
+cd5r8,osf_cd5r8,cd5r8_src/Sim_Function.R
+cht59,osf_cht59,cht59_src/R Code/analysis/01_tables_1_2.r
+cqsr8,osf_cqsr8,cqsr8_src/02_stop_classification/r_scripts/machine_learning_methods/boosting_xgbDART.R
+cqsr8,osf_cqsr8,cqsr8_src/02_stop_classification/r_scripts/plots/plots.R
+csy8q,osf_csy8q,csy8q_src/S8 - Script to extract email addresses from PDFs/R/process_pdf.R
+cxv5k,osf_cxv5k,cxv5k_src/functions/R_functions_Kimmoun_et_al_final.R
+cxv5k,osf_cxv5k,cxv5k_src/scripts/data_preparation.R
+d3tg5,osf_d3tg5,d3tg5_src/Manuscript_main analyses.R
+d4hjq,osf_d4hjq,d4hjq_src/02_parameter_estimation.R
+d9jny,osf_d9jny,d9jny_src/Ter Schure (2021) R code ALL-IN meta-analysis paper.R
+dcw4x,osf_dcw4x,dcw4x_src/04_figures_estimates_marginal_means.R
+dez9b,osf_dez9b,dez9b_src/BaIn_ANOVAinR.R
+dgt8x,osf_dgt8x,dgt8x_src/04-revisions.R
+dkq3f,osf_dkq3f,dkq3f_src/eda_brms.R
+dngyk,osf_dngyk,dngyk_src/R Code & Data/ESM-RUM_R_code.R
+dqjyh,osf_dqjyh,dqjyh_src/Script.R
+dr8gy,osf_dr8gy,dr8gy_src/FUNCTIONS_PUBLIC/RCS_plot_LogisticCox.R
+dr8gy,osf_dr8gy,dr8gy_src/FUNCTIONS_PUBLIC/utils_surv.R
+drv3a,osf_drv3a,drv3a_src/Example R-Code/illustration.R
+dzwct,osf_dzwct,dzwct_src/Data_processing_codes/Data_codes_and_source files_R/R scripts for LMM/Fisher_Z_3PERIODS_median.R
+dzwct,osf_dzwct,dzwct_src/Data_processing_codes/Data_codes_and_source files_R/R scripts for LMM/Fisher_Z_3PERIODS_std.R
+ecjy6,osf_ecjy6,ecjy6_src/CortStressResponse.R
+eg6w5,osf_eg6w5,eg6w5_src/Experiment1b_MaleRep/Data and Analyses/experiment1b_analyses.R
+eg6w5,osf_eg6w5,eg6w5_src/Experiment1c_Female/Data and Analyses/experiment1c_analyses.R
+eg6w5,osf_eg6w5,eg6w5_src/Experiment1d_Mixed/Data and Analyses/experiment1d_analyses.R
+eks6u,osf_eks6u,eks6u_src/Scripts/demo_script_2018_10_02.R
+emwgp,osf_emwgp,emwgp_src/comparison_smooth.R
+emwgp,osf_emwgp,emwgp_src/ppfs.R
+emwgp,osf_emwgp,emwgp_src/helpers/projpred.R
+ex9fj,osf_ex9fj,ex9fj_src/RCode_Final_24Feb20.R
+ezdgt,osf_ezdgt,ezdgt_src/R scripts/3_Regression analyses.R
+f3qrh,osf_f3qrh,f3qrh_src/Kim Skalicky and Jung - R syntax.R
+f6qsk,osf_f6qsk,f6qsk_src/analysis_exp1.R
+f6qsk,osf_f6qsk,f6qsk_src/analysis_exp2.R
+fb5tw,osf_fb5tw,fb5tw_src/src/figure_individual_fits.R
+fb5tw,osf_fb5tw,fb5tw_src/src/figure_main.R
+fb5tw,osf_fb5tw,fb5tw_src/src/figure_pp_check.R
+fb5tw,osf_fb5tw,fb5tw_src/src/plotting_style.R
+fbj3z,osf_fbj3z,fbj3z_src/R Script for Field & Wilcox (2017).R
+fbshg,osf_fbshg,fbshg_src/ComF_SOM_Rcode.R
+fbshg,osf_fbshg,fbshg_src/ComF_helpers.R
+fegvr,osf_fegvr,fegvr_src/Analysis.R
+fr5ed,osf_fr5ed,fr5ed_src/01_data_prepare.R
+fr5ed,osf_fr5ed,fr5ed_src/02_analysis_single_estimate.R
+fr5ed,osf_fr5ed,fr5ed_src/03_posterior_visualization_country_contrast.R
+fsbzw,osf_fsbzw,fsbzw_src/Model/R-ACT-R/functions.R
+fsbzw,osf_fsbzw,fsbzw_src/Model/plots/plot.fix.e1.R
+fvw2k,osf_fvw2k,fvw2k_src/Murrayetal_SurfaceR_Code.R
+fwc2p,osf_fwc2p,fwc2p_src/syntax/Keuken_etal_UHF_MRI_review_analysis_script.r
+fykpt,osf_fykpt,fykpt_src/03_table_comorbidities_by_study.R
+g2nkw,osf_g2nkw,g2nkw_src/YCAS_Scale_development.R
+g8kbu,osf_g8kbu,g8kbu_src/Analysis and Results/dataAnalysisRewardAppsExperiment.R
+g8kbu,osf_g8kbu,g8kbu_src/Analysis and Results/dataAnalysisRewardAppsSurvey.R
+gk6jh,osf_gk6jh,gk6jh_src/support/summarySE.R
+greqt,osf_greqt,greqt_src/02_analysis.R
+greqt,osf_greqt,greqt_src/04_clusters2_tvals.R
+greqt,osf_greqt,greqt_src/06_extrapermut_comaprison_with_random.R
+greqt,osf_greqt,greqt_src/07_correlation_structure.R
+greqt,osf_greqt,greqt_src/functions1.R
+greqt,osf_greqt,greqt_src/functions2.R
+guqrm,osf_guqrm,guqrm_src/Reproduce_figures_prosocial_ageing.R
+gy5vm,osf_gy5vm,gy5vm_src/preprocess_SHCS.R
+gy5vm,osf_gy5vm,gy5vm_src/risk_factors_monthly.R
+gztxa,osf_gztxa,gztxa_src/Vowel_Harmony_LDT_Exp3.R
+gztxa,osf_gztxa,gztxa_src/Vowel_Harmony_LDT_Naming.R
+hbju7,osf_hbju7,hbju7_src/Data and Analysis/study-2_main-analysis-code.R
+he8mu,osf_he8mu,he8mu_src/Custom_Functions.R
+he8mu,osf_he8mu,he8mu_src/Study2_Load_Analysis_Post_Review_11-14-16_Final.R
+hfjgw,osf_hfjgw,hfjgw_src/00-utils.r
+hfxsb,osf_hfxsb,hfxsb_src/code/basic_mods.R
+hn3bu,osf_hn3bu,hn3bu_src/AnalysisCode.R
+hrf5t,osf_hrf5t,hrf5t_src/Analysis/JAGS Code/Prototype.R
+hrf5t,osf_hrf5t,hrf5t_src/Analysis/JAGS Code/runHierarchicalGCM.R
+hrf5t,osf_hrf5t,hrf5t_src/Analysis/JAGS Code/runPrototype.R
+hzncs,osf_hzncs,hzncs_src/Witt_SDT_Simulations_OptionalStopping.R
+hzncs,osf_hzncs,hzncs_src/Witt_SDT_Simulations_SeveralTests.R
+jh47m,osf_jh47m,jh47m_src/data/Gatekeeper analysis.r
+jhyu9,osf_jhyu9,jhyu9_src/PrepareData.R
+jhyu9,osf_jhyu9,"jhyu9_src/ML-RSA for a level-1 and a level-2 congruence variable (Bleidorn et al., 2016)/example_Rcode_mlrsa_osf_oneL1pred.R"
+jpxts,osf_jpxts,jpxts_src/Statistical Code/Final Submission/02_DataPrep/Data_Prep_S1S2.R
+jpxts,osf_jpxts,jpxts_src/Statistical Code/Final Submission/07_Manuscript/Main Tables.R
+jy5wd,osf_jy5wd,jy5wd_src/Code.R
+k853j,osf_k853j,k853j_src/ESS 2018/ESS_openess_2018_perCountry.R
+k853j,osf_k853j,k853j_src/ESS 2016/ESS_openness_2016.R
+k853j,osf_k853j,k853j_src/ESS 2016/ESS_openness_2016_perCountry.R
+kbjw9,osf_kbjw9,kbjw9_src/3DFDRPlot.R
+kdjqz,osf_kdjqz,kdjqz_src/R code/BF_LissonEtAl2020.R
+kdjqz,osf_kdjqz,kdjqz_src/R code/Lissonetal2021-script.R
+kdjqz,osf_kdjqz,kdjqz_src/R code/sim_data_LissonEtAl2020.R
+kgtx6,osf_kgtx6,kgtx6_src/Data Retrieval/f_readRShare.R
+kpe75,osf_kpe75,kpe75_src/analysis.R
+kwp6n,osf_kwp6n,kwp6n_src/Data and Syntax (R)/Everyday_Trust_Rcode.R
+m6pb2,osf_m6pb2,"m6pb2_src/Open data, open code, research transparency/Data_preparation_Sample_A.R"
+m6pb2,osf_m6pb2,"m6pb2_src/Open data, open code, research transparency/Data_preparation_Sample_B.R"
+m6pb2,osf_m6pb2,"m6pb2_src/Open data, open code, research transparency/Data_preparation_Sample_C.R"
+m6pb2,osf_m6pb2,"m6pb2_src/Open data, open code, research transparency/Data_preparation_Sample_D.r"
+m6pb2,osf_m6pb2,"m6pb2_src/Open data, open code, research transparency/Data_preparation_Sample_E.r"
+m6pb2,osf_m6pb2,"m6pb2_src/Open data, open code, research transparency/helpers.R"
+mbf32,osf_mbf32,mbf32_src/SSSS-Latent Variable Analysis Made Easy (1.0) .R
+mc26t,osf_mc26t,mc26t_src/R scripts/my_utils.R
+mcy6r,osf_mcy6r,mcy6r_src/BeerGogglesorLiquidCourageMaterials/BeerGogglesorLiquidCouragePPARatingAnalyses.R
+meh5w,osf_meh5w,meh5w_src/modelComparison.R
+meh5w,osf_meh5w,meh5w_src/multiplicationFactor_ttest.R
+mp9td,osf_mp9td,mp9td_src/Data & Scripts/Stats_Third.R
+mp9td,osf_mp9td,mp9td_src/Data & Scripts/TablePrep_Third.R
+mp9td,osf_mp9td,mp9td_src/Data & Scripts/util/get_first_free_fi.R
+mp9td,osf_mp9td,mp9td_src/Data & Scripts/util/get_gazeshift_latency.R
+mp9td,osf_mp9td,mp9td_src/Data & Scripts/util/get_looks.R
+mp9td,osf_mp9td,mp9td_src/Data & Scripts/interface.R
+mp9td,osf_mp9td,mp9td_src/Data & Scripts/util/is_hitname_in_range.R
+mp9td,osf_mp9td,mp9td_src/Data & Scripts/util/preflight.r
+mvdpe,osf_mvdpe,mvdpe_src/5. Code/4. Compare pre-post.R
+n3zfp,osf_n3zfp,n3zfp_src/Aesthetic-Fidelity-Effect-Statistical Analyses.r
+n5ahf,osf_n5ahf,n5ahf_src/Table1_analysis.R
+n5j3w,osf_n5j3w,n5j3w_src/2021-12-03_AnalysisCode.R
+n7sep,osf_n7sep,n7sep_src/code.R
+nd9yr,osf_nd9yr,nd9yr_src/make_fig1_main_text.R
+nd9yr,osf_nd9yr,nd9yr_src/ordinal_helper_functions.R
+nd9yr,osf_nd9yr,nd9yr_src/ordinal_plot_functions.R
+ns4h9,osf_ns4h9,ns4h9_src/RScript_motives.R
+ntw7d,osf_ntw7d,ntw7d_src/Datasets/Core Assessment/SRMA/SRMA2019_analyses.R
+p2xgq,osf_p2xgq,"p2xgq_src/Analyses for revision 1, with pilot data and data cleaning.R"
+p6msu,osf_p6msu,p6msu_src/input/create_output_behavioral.R
+p7zwr,osf_p7zwr,p7zwr_src/N400.R
+p7zwr,osf_p7zwr,p7zwr_src/P600.R
+pk9my,osf_pk9my,pk9my_src/PNAS_Social_Mobility_public.R
+przvy,osf_przvy,przvy_src/study1-rscript.R
+qbgct,osf_qbgct,qbgct_src/Data and RCode/code_analyses.R
+qhaf8,osf_qhaf8,qhaf8_src/Hands on data with R software/pupillometry_tutorial_calignano.R
+qj4xr,osf_qj4xr,qj4xr_src/01 Syntax/02_prevalence-of-scipop.R
+qj4xr,osf_qj4xr,qj4xr_src/01 Syntax/03_explaining-scipop-attitudes.R
+qj4xr,osf_qj4xr,qj4xr_src/01 Syntax/06_sensitivity-tests.R
+qk3bf,osf_qk3bf,qk3bf_src/iip_estimate_bifactor.R
+qrv2e,osf_qrv2e,qrv2e_src/Codes/DivNorm_R_EyeTrack.R
+qwr69,osf_qwr69,qwr69_src/nGFS.R
+qxf5t,osf_qxf5t,qxf5t_src/TSST_Meta.R
+qxwsz,osf_qxwsz,qxwsz_src/Study 2/Data and code/anxiety_abstraction_s2.R
+qy5sd,osf_qy5sd,qy5sd_src/R code/PairsBindingRSS_MPT.R
+qy5sd,osf_qy5sd,qy5sd_src/R code/PairsBindingRSS_Stats.R
+qy5sd,osf_qy5sd,qy5sd_src/R code/plotPostKO.R
+r24vb,osf_r24vb,r24vb_src/clustering_syn_types.R
+r4wg2,osf_r4wg2,r4wg2_src/elsa_analyses.R
+r4wg2,osf_r4wg2,r4wg2_src/stadyl_analyses.R
+rbxzs,osf_rbxzs,rbxzs_src/Datos y script para R/Script_R.R
+rf6zu,osf_rf6zu,rf6zu_src/scrape_web_pages.R
+rmcuy,osf_rmcuy,rmcuy_src/Code for analysis/Fig. 4 - Simulation_model_outline_AT_LM.r
+rmcuy,osf_rmcuy,rmcuy_src/Code for analysis/Model_analysis.R
+rs6un,osf_rs6un,rs6un_src/Code and simulations results first draft - July 2020/Simulation Study III - Predictive Accuracy/Code_Simulation_Part_III_MVAR_RE.R
+rs6un,osf_rs6un,rs6un_src/Code and simulations results second revision - March 2021/Simulation Study III/Data.Cluster.VAR.Fixed.R
+rs6un,osf_rs6un,rs6un_src/Code and simulations results second revision - March 2021/Simulation Study III/Data.Cluster.VAR.R
+rs6un,osf_rs6un,rs6un_src/Code and simulations results second revision - March 2021/Simulation Study II/Data.PC.VAR.Fixed.R
+rs6un,osf_rs6un,rs6un_src/Code and simulations results second revision - March 2021/Simulation Study I/MVAR.FE/Data.VAR.Fixed.R
+rs6un,osf_rs6un,rs6un_src/Code and simulations results second revision - March 2021/Simulation Study II/MSE.VAR.Sys.R
+rs6un,osf_rs6un,rs6un_src/Code and simulations results second revision - March 2021/Simulation Study I/AR/Psi.PS.AR.Matrix.R
+rtmyx,osf_rtmyx,rtmyx_src/05_PerceptionAnalysis_AllClassSolutions_V230401.R
+s6zeg,osf_s6zeg,s6zeg_src/Criticism-Attachment-RCode_v2.R
+s82bw,osf_s82bw,s82bw_src/01_TreeBUGS_with_csv_files.R
+s82bw,osf_s82bw,s82bw_src/04_simulation_continuous_predictor.R
+sb3kw,osf_sb3kw,"sb3kw_src/Studies 3A, 3B, & 3C/Meta_Analysis.R"
+sb3kw,osf_sb3kw,sb3kw_src/Study 2A/Study2A_analyses.R
+sb3kw,osf_sb3kw,sb3kw_src/Study 2B/Study2B_analyses.R
+sb3kw,osf_sb3kw,"sb3kw_src/Studies 3A, 3B, & 3C/Study3B_analyses.R"
+skp56,osf_skp56,skp56_src/CSEP_DataScienceExPhys_Akerman2021.R
+skp56,osf_skp56,skp56_src/CSEP_DataScienceExPhys_DataGen_Akerman.R
+sqfnt,osf_sqfnt,sqfnt_src/Goal 1/Goal 1 Analysis.R
+sqfnt,osf_sqfnt,sqfnt_src/Goal 3/Goal 3 Analysis.R
+sw7rq,osf_sw7rq,sw7rq_src/Data and Analysis/Functions.R
+sx6yf,osf_sx6yf,sx6yf_src/2021-6-7_No_Man_Is_An_Island_analyses.R
+t2jka,osf_t2jka,t2jka_src/image-stimuli/batchUploadImages.R
+t2jka,osf_t2jka,t2jka_src/multiple-choice-same-option/multipleChoiceSame.R
+t7a28,osf_t7a28,t7a28_src/analysis/collect_results.R
+t93pf,osf_t93pf,t93pf_src/Simulation-Random-Significance.r
+tajd9,osf_tajd9,tajd9_src/Flip Study/Flip_MainDataAnalyses.R
+tajd9,osf_tajd9,tajd9_src/Flux Study/Flux_MainDataAnalyses.R
+tbczv,osf_tbczv,tbczv_src/Experiment 1b/01-readData.r
+tbczv,osf_tbczv,tbczv_src/Experiment 1b/02-exclCriteria.r
+tbczv,osf_tbczv,tbczv_src/Experiment 1b/modelling/TRDM-functions.r
+tbczv,osf_tbczv,tbczv_src/Experiment 1a/modelling/exp1aDead-MNL-SAT-A.r
+tbczv,osf_tbczv,tbczv_src/Experiment 1b/modelling/exp1bDead-MNL-SAT-A.r
+tbczv,osf_tbczv,tbczv_src/Experiment 1b/modelling/pmwgDIC.r
+tfbps,osf_tfbps,tfbps_src/Files of earlier manuscript versions/R_Script_Idiographic_network_analyses.R
+tg3fq,osf_tg3fq,tg3fq_src/syntax_SDMWS&SBPS.R
+tgf3q,osf_tgf3q,tgf3q_src/SI_4_Statistical_analyses.R
+tnbev,osf_tnbev,tnbev_src/lewis-acid-base-researchers.R
+tw8dq,osf_tw8dq,tw8dq_src/R-scripts/SVOSM_analyses_final.R
+u9hkj,osf_u9hkj,u9hkj_src/expertsurvey_CDRCCS.R
+uckzx,osf_uckzx,uckzx_src/R Code/P1/P1_motif-by-motif_newbins.R
+uckzx,osf_uckzx,uckzx_src/R Code/P2/P2_analysis_newbins.R
+uckzx,osf_uckzx,uckzx_src/R Code/P2/P2_analysis_oldbins.R
+uckzx,osf_uckzx,uckzx_src/R Code/P3/P3_analysis.R
+uf63k,osf_uf63k,uf63k_src/MsReviewsAnalysisScript.R
+unxj2,osf_unxj2,unxj2_src/scripts/functions/functions_1.R
+unxj2,osf_unxj2,unxj2_src/scripts/functions/functions_2.R
+uq3cv,osf_uq3cv,uq3cv_src/r_scripts/4_Compute_beta_diversity_metrics.R
+uq3cv,osf_uq3cv,uq3cv_src/r_scripts/5_NMDS_comparing_dawn_and_morning_assemblage_compositions.R
+uxdwh,osf_uxdwh,uxdwh_src/code.R
+uygpq,osf_uygpq,uygpq_src/Cross-paradigm.R
+uygpq,osf_uygpq,uygpq_src/Model figures.R
+uygpq,osf_uygpq,uygpq_src/Within-paradigm.R
+vguey,osf_vguey,vguey_src/2020_12_23_PowerAnalysisIL/R/Sim.Data.IL.R
+vguey,osf_vguey,vguey_src/2020_12_23_PowerAnalysisIL/R/lag.Y.R
+vnbxk,osf_vnbxk,vnbxk_src/GamingStudy_PreProcessing.R
+vprwb,osf_vprwb,vprwb_src/MLM--lmerTest--JPNpsyUpdated.R
+vtb9e,osf_vtb9e,vtb9e_src/PowerLAPIM R Package/Sim.Dyad.Model.16.R
+vtb9e,osf_vtb9e,vtb9e_src/PowerLAPIM R Package/Sim.Dyad.Model.3.R
+vwq9p,osf_vwq9p,vwq9p_src/analysis.R
+w4gey,osf_w4gey,w4gey_src/02_code/01_setup.R
+w4gey,osf_w4gey,w4gey_src/02_code/02_measures.R
+w4gey,osf_w4gey,w4gey_src/02_code/03_descriptive-analysis.R
+w7afh,osf_w7afh,w7afh_src/CFA script.R
+w7afh,osf_w7afh,w7afh_src/EFA script.R
+w7pjy,osf_w7pjy,w7pjy_src/R/PWLcapturedByModel.R
+w7pjy,osf_w7pjy,w7pjy_src/scripts/analyze_agreementIndicators.R
+w7pjy,osf_w7pjy,w7pjy_src/R/assessQualityOfcaptWKL.R
+w7pjy,osf_w7pjy,w7pjy_src/R/bootstrapConfusionMatrix.R
+w7pjy,osf_w7pjy,w7pjy_src/scripts/figures_paper.R
+w7pjy,osf_w7pjy,w7pjy_src/R/format_captWKLquality.R
+w7pjy,osf_w7pjy,w7pjy_src/R/format_confusionMatrix.R
+w7pjy,osf_w7pjy,w7pjy_src/R/node_violinplot.R
+wbyj7,osf_wbyj7,wbyj7_src/code/Experiment 1/Exp1-LBA-null.r
+wbyj7,osf_wbyj7,wbyj7_src/code/Experiment 1/pmwg-DIC.r
+wbyj7,osf_wbyj7,wbyj7_src/code/Experiment 1/read-data-Exp1.r
+wc3nq,osf_wc3nq,wc3nq_src/2) soc_measures_code.R
+wc3nq,osf_wc3nq,wc3nq_src/6) agr_summer_model.R
+wc3nq,osf_wc3nq,wc3nq_src/7) agr_yearly_model.R
+wcfj3,osf_wcfj3,wcfj3_src/analysis/src/1_dataPrep.R
+wcfj3,osf_wcfj3,wcfj3_src/analysis/src/2_idDiffs.R
+wcfj3,osf_wcfj3,wcfj3_src/analysis/src/funs.R
+wcqpa,osf_wcqpa,wcqpa_src/Rcode.R
+wxgm5,osf_wxgm5,wxgm5_src/Experiment 1/Exp1_complete.R
+wxgm5,osf_wxgm5,wxgm5_src/Experiment 2/Exp2_judgment.R
+wxgm5,osf_wxgm5,wxgm5_src/Experiment 2/Exp2_tapping.R
+wxgzu,osf_wxgzu,wxgzu_src/outcome_evaluation_code_v5.R
+x72cy,osf_x72cy,x72cy_src/Preregistration/R Code/AnalyzeDummyData.R
+x72cy,osf_x72cy,x72cy_src/Analysis_Code/ConfirmatoryAnalyses.R
+x72cy,osf_x72cy,x72cy_src/Analysis_Code/ExploratoryAnalyses.R
+x72cy,osf_x72cy,x72cy_src/Preregistration/R Code/PreprocessingQualtricsData.R
+x8vyw,osf_x8vyw,x8vyw_src/R code/02_random_forest_analysis.R
+x8vyw,osf_x8vyw,x8vyw_src/R code/03_glmm_analysis.R
+xcthg,osf_xcthg,xcthg_src/data/4_seg_agreement/NHST_and_bayes/0-Script.R
+xgwzf,osf_xgwzf,xgwzf_src/scripts/exp3_analysis.R
+xgwzf,osf_xgwzf,xgwzf_src/scripts/utils.R
+xhrw6,osf_xhrw6,xhrw6_src/R Project & Source Data/1_create_composite_measures.R
+xhrw6,osf_xhrw6,xhrw6_src/R Project & Source Data/4_sem_models.R
+xhrw6,osf_xhrw6,xhrw6_src/R Project & Source Data/Functions/corstars.R
+xjm6z,osf_xjm6z,xjm6z_src/Annotated Analysis Script/AuxiliaryFunctions.R
+xwp2d,osf_xwp2d,xwp2d_src/r-code/generic.r
+yc8b5,osf_yc8b5,yc8b5_src/get_tweets.R
+yfegm,osf_yfegm,yfegm_src/ANALYSES/PREPROC_script_Experiment1.r
+yfegm,osf_yfegm,yfegm_src/ANALYSES/util/allocateTrials.r
+yfegm,osf_yfegm,yfegm_src/ANALYSES/util/getLooks.r
+yfegm,osf_yfegm,yfegm_src/ANALYSES/util/getObjects.r
+yvw93,osf_yvw93,yvw93_src/Example R-Code/R_code_test_congruence_effects.R
+ywm3r,osf_ywm3r,ywm3r_src/Analyses.R
+ywm3r,osf_ywm3r,ywm3r_src/predictability.R
+z6nm8,osf_z6nm8,z6nm8_src/Stats_figures_ECT.R
+z6nm8,osf_z6nm8,z6nm8_src/Stats_figures_JBT.R
+z6nm8,osf_z6nm8,z6nm8_src/Stats_figures_JBTxECT.R
+zcv4m,osf_zcv4m,zcv4m_src/Materials/winke_stevens_2017_rcode.R
+zfqax,osf_zfqax,zfqax_src/Data and Analysis Scripts/Study 1: Manipulation effectiveness/Study1_manipulationeffectiveness.R
+zhf98,osf_zhf98,zhf98_src/abstract ratings analysis.r
+ztycp,osf_ztycp,ztycp_src/Raw Data and R Code/Schizotypal Ambivalence.R
+zv3uc,osf_zv3uc,zv3uc_src/R code/analysis.R
