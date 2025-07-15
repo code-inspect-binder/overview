@@ -8,13 +8,17 @@ This GitHub organization and its repositories were created to organize, track, a
 ---
 
 ## Execution Summary
-Using this reproducibility pipeline, we analyzed a collection of R scripts sourced from the [StatCodeSearch](https://huggingface.co/datasets/drndr/statcodesearch) dataset within the GenCodeSearchNet benchmark. These R scripts, which focus on statistical analyses in social science and psychology, were sourced from the GenCodeSearchNet benchmark and linked to relevant projects on the Open Science Framework (OSF), a platform for sharing research materials. In total, 296 unique OSF projects were identified and examined through our reproducibility pipeline.
+Using this reproducibility pipeline, we analyzed a collection of R scripts sourced from the [StatCodeSearch](https://huggingface.co/datasets/drndr/statcodesearch) dataset within the GenCodeSearchNet benchmark. These scripts were originally extracted from projects hosted on the Open Science Framework (OSF), a platform for sharing scientific research artifacts. The dataset includes only a subset of relevant R scripts from each OSF project, rather than the full script inventory, focusing primarily on statistical analyses in social science and psychology domains.
 
-The complete list of project identifiers is available in [**project_ids.csv**](https://github.com/code-inspect-binder/overview/blob/main/metadata/project_ids.csv), which contains:
+In total, 296 unique OSF projects were analyzed. The specific scripts selected for execution and their corresponding OSF project mappings are documented in project_script_dirs.csv, which is included in this repository.
 
-| Column         | Description                              |
-|----------------|------------------------------------------|
-| **Project ID** | OSF project identifier for each study    |
+The complete mapping of project identifiers to R script file paths is available in [**project_id_rscript_path.csv**](https://github.com/code-inspect-binder/overview/blob/main/metadata/project_id_rscript_path.csv), which contains:
+
+| Column             | Description                                                                             |
+|--------------------|-----------------------------------------------------------------------------------------|
+| **Project ID**     | OSF project identifier for each study                                                   |
+| **repo_variant**   | Name of the associated local repository (append `-f` for the version instrumented with flowR) |
+| **r_script_path**  | Path to the R script within the project                                                 |
 
 We found that only **264 projects** were retrievable from OSF. Among them, nearly **99% lacked proper dependency information**, such as missing `DESCRIPTION` files, environment specifications (e.g., `renv.lock`, `sessionInfo()` output), or other metadata needed to reproduce the software environment.
 
